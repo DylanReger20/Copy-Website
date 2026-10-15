@@ -1,0 +1,85 @@
+
+body{
+    background-color: rgb(28,69,135);
+    color: white;
+}
+
+#title{
+    font-size: 500px;
+}
+
+#title{
+    font-size: 50px;
+}
+#link{
+    font-size: 33px;
+}
+#link2{
+    fontsize: 33px;
+}
+#link3{
+    font-size: 33px;
+}
+#link4{
+    font-size: 33px;
+}
+#link5{
+    font-size: 33px;
+}
+
+a{
+    color:white
+}
+
+.text{
+    color: white
+}
+
+.grid{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+    grid-template-rows:auto auto;
+    text-align: center;
+    img{
+        grid-column: Span 4;
+        grid-row: span 4;
+        width: 50px;
+        height: 50px ;
+    }
+}
+#Robotics{
+    img{
+        width: 220px;
+        height: 200px;
+    }
+}
+
+#Cybersecurity{
+    img{
+        width: 280px;
+        height: 200px;
+    }
+}
+
+#CSL{
+    img{
+        width: 280px;
+        height: 200px;
+    }
+}
+
+#ap1{
+    width: 50px;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    align: right;
+    align-content: flex-end;
+    cursor: pointer;
+}
+#button1{
+    display: flex;
+    align-content: flex-end;
+    justify-content: space-between;
+}
+
