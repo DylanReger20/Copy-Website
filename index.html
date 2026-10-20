@@ -8,30 +8,39 @@
 </head>
 <body>
 
-<div id="sidebar">
-    <h2>Computer Science Magnet Program</h2>
-    <p>Freehold High School </p>
-    <div id="courses">
-    <p>Courses in the Program</p>
-        <p>AP Computer Science Principles </p>
-        <p>AP Computer Science A </p>
-        <p>Honors Data Structures and Algoritms </p>
-        <p>Honors Computer Science Senior Capstone: Web, Data, and AI </p>
-        <p>Honors Discrete Math and Cybersecurity </p>
+<div class ="sb">
+    <div id="sidebar">
+        <button id ="buttonSmall" onclick = "toggleSidebar">≣</button>
+        <h2 onclick="sideBar('title')">Computer Science Magnet Program</h2>
+        <p id = "free">Freehold High School </p>
+        <div id="courses">
+            <p id = "change1" onclick="sideBar('title2'); openMe()">Courses in the Program</p>
+            <div id="hidden1">
+                <p onclick="sideBar('first')">AP Computer Science Principles </p>
+                <p onclick="sideBar('second')">AP Computer Science A </p>
+                <p onclick="sideBar('third')">Honors Data Structures and Algoritms </p>
+                <p onclick="sideBar('fourth')">Honors Computer Science Senior Capstone: Web, Data, and AI </p>
+                <p onclick="sideBar('fifth')">Honors Discrete Math and Cybersecurity </p>
+            </div>
+        </div>
+        <div>
+            <p id = "change2" onclick="sideBar('extra'); openMe2()">Extracurricular Opportunities</p>
+            <div id="hidden2">
+                <p onclick="sideBar('Robotics')">Robotics</p>
+                <p onclick="sideBar('Cybersecurity')">Cybersecurity</p>
+                <p onclick="sideBar('CSL')">Computer Science League</p>
+                <p onclick="sideBar('club4')">Computing Inspiration & Mentorship Association</p>
+            </div>
+        </div>
+        <p id = "last" onclick="sideBar('somecolleges')">Where our students have gone</p>
     </div>
-    <div>
-    <p>Extracurricular Opportunities</p>
-        <p>Robotics</p>
-        <p>Cybersecurity</p>
-        <p>Computer Science League</p>
-        <p>Computing Inspiration & Mentorship Association</p>
-    </div>
-    <p>Where our students have gone</p>
-
-
 </div>
 
-<ul class="text">
+<div class = main>
+
+
+
+
 <h1 id="title">Computer Science Magnet Program</h1>
 <P>The Computer Science Magnet Program is a rigorous four-year course of study designed for students who have an interest in computer science, technology, engineering, data, cybersecurity, and emerging fields such as artificial intelligence. The program provides students with the opportunity to develop a strong foundation in computer science while applying computational thinking, programming, mathematics, and problem-solving skills to authentic and increasingly complex challenges.</P>
 <P>The goal of the program is to prepare students for continued study and success in computer science and related STEM fields while developing the technical skills, creativity, collaboration, communication, and adaptability needed to thrive in a rapidly changing technological landscape. Students learn not only how to write code, but also how to design solutions, analyze data, develop algorithms, understand computing systems, consider the ethical implications of technology, and apply their knowledge to real-world problems.</P>
@@ -109,7 +118,7 @@
 <p>A brand-new club focusing on pairing mentors and mentees to help foster inspiration and help struggling underclassmen.</p>
 
 <h2 id ="somecolleges">Some of the colleges students have gone to</h2>
-</ul>
+
 
 
 
@@ -225,6 +234,18 @@
 </div>
 </div>
 
-
+</div>
 </body>
 </html>
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>

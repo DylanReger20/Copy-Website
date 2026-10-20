@@ -124,13 +124,15 @@ display: flex;
 }
 #sidebar{
     color:black;
-}
-
-#sidebar{
+    text-align: center;
     p:hover {
         background-color: whitesmoke;
     }
+    #buttonSmall{
+        display: flex;
+    }
 }
+
 
 #extra{
     font-size: 40px;
@@ -154,4 +156,51 @@ display: flex;
 
 #somecolleges{
     font-size: 40px;
+}
+
+.sb{
+    display: flex;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    position: fixed;
+    width: 20%;
+    background-color: gold;
+    padding-top: 55px;
+    height: 100%;
+}
+
+.main{
+    margin-left:20%;
+}
+
+#hidden1{
+    display: none;
+}
+
+#hidden2{
+    display: none;
+}
+#buttonSmall{
+    background: none;
+    font-size: 28px;
+    border: 1px solid black;
+    color: black;
+    cursor: pointer;
+    padding: 6px 10px;
+}
+
+#change1{
+    font-size: 25px;
+}
+
+#change2{
+    font-size: 25px;
+}
+#free{
+    font-size: 25px;
+}
+
+#last{
+    font-size: 25px;
 }
