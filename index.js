@@ -1,5 +1,10 @@
+
 function clicked() {
     window.open("https://apstudents.collegeboard.org/courses/ap-computer-science-principles", "_blank")
+}
+
+function clicked1() {
+    window.open("https://apstudents.collegeboard.org/courses/ap-computer-science-a", "_blank")
 }
 
 function clicked2(){
@@ -34,18 +39,35 @@ function openMe(){
     let x = document.getElementById("hidden1");
     if(x.style.display === "none"){
         x.style.display = "block"
+        document.getElementById("hidden2").style.display = "none"
     } else {
         x.style.display = "none"
     }
+
 }
 
 function openMe2(){
     let x = document.getElementById("hidden2");
     if(x.style.display === "none"){
         x.style.display = "block"
+        document.getElementById("hidden1").style.display = "none"
     } else {
         x.style.display = "none"
     }
+}
+
+function buttonSmall(){
+    let hid = document.querySelector(".sb");
+        if(hid.style.display === "none"){
+            hid.style.display = "block";
+
+            document.getElementById("buttonSmall").style.color= "black";
+
+        }
+        else{
+            hid.style.display = "none";
+            document.getElementById("buttonSmall").style.color= "white";
+        }
 }
 
 
